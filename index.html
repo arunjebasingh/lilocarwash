@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+#one, #two, #three { width: 33.3%; }
+#one, #two { float: left; }
+#three { float: right; clear: none; }
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+</style>
+</head>
+<body>
+<h1>TESTIMONIALS . . . .</h1>
+
+<h2>What Our Clients Say About Us</h2>
+<div class="container">
+  <img src="/Users/manish/Desktop/LILO_car_wash/images/sam.jpg" alt="sam" style="width:90px">
+  <p><span>Samidha lilo</span> Assistant Professor at Lakehead univ</p>
+  <p>LILO car Wash has been a remarkable discovery. The quality of the wash, wax, and interior is far and away the best service I have received to date.</p>
+</div>
+
+<div class="container">
+  <img src="/Users/manish/Desktop/LILO_car_wash/images/suku.jpg" alt="suku" style="width:90px">
+  <p><span>Sukumar Su</span> Deccan spice chief chef</p>
+  <p>I would not hesitate to recommend your mobile car wash, as you far exceeded my expectations.</p>
+</div>
+
+<div class="container">
+  <img src="/Users/manish/Desktop/LILO_car_wash/images/gow.jpg" alt="gow" style="width:90px">
+  <p><span>Gowtham Gow</span> CEO of LCBO</p>
+  <p>I hate driving a dirty car. I contacted LILO acar wash, you guys came to me promptly. By the time my meeting was finished my car was finished and spotless.</p>
+</div>
+
+<div class="container">
+  <img src="/Users/manish/Desktop/LILO_car_wash/images/sans.jpg" alt="sans" style="width:90px">
+  <p><span>Sanjana Sans</span> CEO of Prince Arthur international</p>
+  <p>LILO car wash, What a remarkable convenience. Better than that, my Porsche is glistening when I step outside. They are on time, professional, and totally honest. 5 stars!!!</p>
+</div>
+
+
+<!-- services--> 
+<h1>Services</h1>
+
+<div class="flip-card" id="one"> 
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/Users/manish/Desktop/LILO_car_wash/images/small.jpg" alt="Avatar" style="width:400px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Small Cars</h1> 
+    </div>
+  </div>
+</div>
+
+<div class="flip-card" id="two">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/Users/manish/Desktop/LILO_car_wash/images/large.jpg" alt="largecar" style="width:400px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Large Cars</h1> 
+    </div>
+  </div>
+</div>
+
+<div class="flip-card" id="three">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/Users/manish/Desktop/LILO_car_wash/images/xlarge.jpg" alt="Avatar" style="width:400px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Extra Large Cars</h1> 
+    </div>
+  </div>
+</div>
+
+<div class="flip-card" id="one"> 
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/Users/manish/Desktop/LILO_car_wash/images/dealer.jpg" alt="Avatar" style="width:400px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Dealers Car Wash Service</h1> 
+    </div>
+  </div>
+</div>
+
+<div class="flip-card" id="two">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/Users/manish/Desktop/LILO_car_wash/images/fleet.jpg" alt="Avatar" style="width:400px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Fleet Car Wash Service</h1> 
+    </div>
+  </div>
+</div>
+
+<div class="flip-card" id="three">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/Users/manish/Desktop/LILO_car_wash/images/event.jpg" alt="Avatar" style="width:400px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Car Events/Shows Car Wash Service</h1> 
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
